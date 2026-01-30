@@ -1,0 +1,37 @@
+.canvas-background{
+    background-image: linear-gradient(to top,rgb(199, 18, 205),rgb(133, 18, 205),rgb(106, 0, 255),);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.color-card{
+    background-color: #ffffff;
+    padding: 15px;
+    border: 0px;
+    border-radius: 10px;
+}
+.color-btn{
+    border: 2px solid grey;
+    padding: 10px;
+    color:#ffffff;
+    margin: 10px;
+    font-family: "Roboto";
+    border-radius: 5px;
+}
+.action-btn{
+    background-color: grey;
+    border: 1px solid black;
+    color: #ffffff;
+    font-family: "Roboto";
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.canvas-field{
+    height: 80vh;
+    width: 90vh;
+    border: 2px solid grey;
+    border-radius: 7px;
+}
